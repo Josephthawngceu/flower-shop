@@ -1,0 +1,199 @@
+body{
+    font:400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color:#818181;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color:#303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 19px;
+    line-height: 1.3em;    
+    color:#303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.navbar{
+    background-color: white;
+    top: fixed;
+    align-items: center;
+    z-index:1000;
+    font-size:12px;
+    line-height: 1.4;
+    letter-spacing: 4px;
+    font-family: 'Pacifico', cursive;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+.navbar .navbar-brand,
+.navbar .navbar-nav a{
+    color:black;
+}
+
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a.active{
+    color: white;
+    background-color: #230202;
+}
+
+
+#header{
+    font-family: Montserrat, sans-serif;
+    padding:100px 0px;
+    background-image: url('./images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+#header form{
+    text-align: center;
+    width: 400px;
+    margin:auto;
+}
+
+
+#header .input-group button{
+    background-color: #230202;
+    color:#fff;
+}
+
+.container-fluid{
+    padding:60px 50px;
+}
+
+#about button{
+    background-color: #230202;
+    color:#fff;
+}
+.wallpaper{
+    width: 200px;
+    height: 200px;
+}
+.items{
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    color:#f4511e;
+    font-size:200px;
+}
+
+.bg-grey{
+    background-color: #f6f6f6;
+}
+
+.logo-small{
+    color:#f4511e;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#my-carousel .carousel-inner{
+    padding:30px 0px;
+}
+
+#my-carousel .carousel-control-prev i,
+#my-carousel .carousel-control-next i{
+    color:#230202;
+    font-size: 30px;
+}
+
+#my-carousel .carousel-indicators button{
+    border:1px solid #230202;
+    height: 5px;
+}
+
+#my-carousel .carousel-indicators button.active{
+    background-color: #230202;
+}
+#button{
+    background-color: #230202;
+}
+#pricing .price-box{
+    border:1px solid #230202;
+    transition: box-shadow 3s;
+}
+
+#pricing .price-box:hover{
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.3);
+}
+
+#pricing .price-box-header{
+    background-color: #f4511e;
+    color:#fff;
+    padding:25px 0px;
+    margin-bottom: 5px;
+}
+
+#pricing .price-box-footer h3{
+    font-size:32px;
+}
+
+#pricing .price-box-footer h4{
+    font-size:14px;
+    color:red;
+}
+
+#pricing .price-box-footer button,
+#contact button{
+    background-color: red;
+    color:#fff;
+    margin-bottom:10px;
+}
+
+#pricing .price-box-footer button:hover,
+#contact button:hover{
+    background-color: #fff;
+    color:#230202;
+    border:1px solid #230202;    
+}
+
+#footer p{
+    font-weight: bold;
+}
+
+#footer p a{
+    text-decoration: none;
+    color:#230202;
+}
+
+#footer i{
+    font-size: 40px;
+    color: #230202;
+}
+
+.slideAnimationObject{
+    visibility: hidden;
+}
+
+.slide{
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slideDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-70%);
+
+    }
+    100%{
+        opacity: translateY(0%);
+    }
+    
+}
